@@ -1,0 +1,57 @@
+{
+    "Logistic Regression": {
+        "threshold": 0.46,
+        "selection_rule": "specificity >= 0.60 and precision >= 0.20",
+        "validation_details": {
+            "threshold": 0.46,
+            "precision": 0.23545706371191136,
+            "recall": 0.6589147286821705,
+            "specificity": 0.6161335187760779,
+            "f1": 0.3469387755102041
+        }
+    },
+    "Decision Tree": {
+        "threshold": 0.41500000000000004,
+        "selection_rule": "specificity >= 0.60 and precision >= 0.20",
+        "validation_details": {
+            "threshold": 0.41500000000000004,
+            "precision": 0.22910216718266255,
+            "recall": 0.5736434108527132,
+            "specificity": 0.6536856745479833,
+            "f1": 0.3274336283185841
+        }
+    },
+    "Random Forest": {
+        "threshold": 0.38,
+        "selection_rule": "specificity >= 0.60 and precision >= 0.20",
+        "validation_details": {
+            "threshold": 0.38,
+            "precision": 0.23243243243243245,
+            "recall": 0.6666666666666666,
+            "specificity": 0.6050069541029207,
+            "f1": 0.34468937875751504
+        }
+    },
+    "SVM": {
+        "threshold": 0.135,
+        "selection_rule": "specificity >= 0.60 and precision >= 0.20",
+        "validation_details": {
+            "threshold": 0.135,
+            "precision": 0.23480662983425415,
+            "recall": 0.6589147286821705,
+            "specificity": 0.6147426981919333,
+            "f1": 0.34623217922606925
+        }
+    },
+    "XGBoost": {
+        "threshold": 0.33,
+        "selection_rule": "specificity >= 0.60 and precision >= 0.20",
+        "validation_details": {
+            "threshold": 0.33,
+            "precision": 0.22702702702702704,
+            "recall": 0.6511627906976745,
+            "specificity": 0.6022253129346314,
+            "f1": 0.3366733466933868
+        }
+    }
+}
